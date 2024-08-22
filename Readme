@@ -1,0 +1,57 @@
+A React Application
+Requirements
+Node.js and npm
+How to Run
+Install Node.js and npm
+
+Download and install from nodejs.org.
+Create a React Project
+
+Open terminal and run
+bash
+Copy code
+npx create-react-app chat-app
+Navigate into the chat-app
+bash
+Copy code
+cd chat-app
+Install Dependencies
+
+Run
+bash
+Copy code
+npm install @chatscope/chat-ui-kit-react @chatscope/chat-ui-kit-styles
+Add API Key
+
+Create a file in the root of your project
+Copy code
+npm start
+The app should open in your default web browser.
+Streamlit App
+Prerequisites
+Python and pip
+How to run
+Install Python:
+
+Download and install from python.org.
+Set Up A Virtual Environment:
+
+Create a virtual environment:
+bash
+Copy code
+python -m venv myenv
+Active the virtual environment:
+On Windows:
+bash
+Copy code
+myenv\Scripts\activate
+On macOS/Linux:
+bash
+Copy code
+source myenv/bin/activate
+Install Dependencies:
+streamlit run app.py
+The application will open in a new browser tab
+This is an easy to read, step-by-step guide for setup and usage of, first the React and then the Streamlit application.
+
+
